@@ -21,5 +21,5 @@ Source 2: https://www.kaggle.com/code/sharmayashi/signlangdetection/input
 First, we created a CNN model, we defined the layers for it.
 after that we applied transfer learning using pre-built and pre-trained models with ImageNet weights. The primary objective of transfer learning is to leverage knowledge gained from a large dataset and apply it to a smaller one. We froze the early convolutional layers of the network, training only the last layers responsible for predictions. The concept is that the initial convolutional layers capture general, low-level features applicable across various images, such as edges, patterns, and gradients. The subsequent layers specialize in identifying specific features within individual images. Our choice of pre-trained models includes ResNet18, AlexNet, DenseNet, and VGG16, with an image size of 224x224, a batch size of 64/128, 10 epochs, and no data augmentation.
 
-## results
+## Results
 ![image](https://github.com/user-attachments/assets/aacb556c-e78e-468c-a9c6-5c4e684e0f8d)
