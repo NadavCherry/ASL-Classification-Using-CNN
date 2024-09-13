@@ -12,7 +12,9 @@ The insights derived from hearing-related statistics underscore the importance o
 
 # Data
 We used data sets from two different sources.
+
 Source 1: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+
 Source 2: https://www.kaggle.com/code/sharmayashi/signlangdetection/input
 
 First, we created a CNN model, we defined the layers for it.
